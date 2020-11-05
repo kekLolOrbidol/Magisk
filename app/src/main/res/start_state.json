@@ -1,0 +1,152 @@
+{
+  "continents": [
+    {
+      "name": "A",
+      "countries": [
+        {"name": "A11", "player": "A", "count": 1, "modified": false },
+        {"name": "A12", "player": "A", "count": 1, "modified": false },
+        {"name": "A13", "player": "A", "count": 1, "modified": false },
+        {"name": "A21", "player": "A", "count": 1, "modified": false },
+        {"name": "A22", "player": "A", "count": 1, "modified": false },
+        {"name": "A23", "player": "A", "count": 1, "modified": false },
+        {"name": "A31", "player": "A", "count": 1, "modified": false },
+        {"name": "A32", "player": "A", "count": 1, "modified": false },
+        {"name": "A33", "player": "A", "count": 1, "modified": false }
+      ]
+    },
+    {
+      "name": "B",
+      "countries": [
+        {"name": "B11", "player": "B", "count": 1, "modified": false },
+        {"name": "B12", "player": "B", "count": 1, "modified": false },
+        {"name": "B13", "player": "B", "count": 1, "modified": false },
+        {"name": "B21", "player": "B", "count": 1, "modified": false },
+        {"name": "B22", "player": "B", "count": 1, "modified": false },
+        {"name": "B23", "player": "B", "count": 1, "modified": false },
+        {"name": "B31", "player": "B", "count": 1, "modified": false },
+        {"name": "B32", "player": "B", "count": 1, "modified": false },
+        {"name": "B33", "player": "B", "count": 1, "modified": false }
+      ]
+    },
+    {
+      "name": "C",
+      "countries": [
+        {"name": "C11", "player": "A", "count": 1, "modified": false },
+        {"name": "C12", "player": "A", "count": 1, "modified": false },
+        {"name": "C13", "player": "A", "count": 1, "modified": false },
+        {"name": "C21", "player": "A", "count": 1, "modified": false },
+        {"name": "C22", "player": "A", "count": 1, "modified": false },
+        {"name": "C23", "player": "A", "count": 1, "modified": false },
+        {"name": "C31", "player": "A", "count": 1, "modified": false },
+        {"name": "C32", "player": "A", "count": 1, "modified": false },
+        {"name": "C33", "player": "A", "count": 1, "modified": false }
+      ]
+    },
+    {
+      "name": "D",
+      "countries": [
+        {"name": "D11", "player": "B", "count": 1, "modified": false },
+        {"name": "D12", "player": "B", "count": 1, "modified": false },
+        {"name": "D13", "player": "B", "count": 1, "modified": false },
+        {"name": "D21", "player": "B", "count": 1, "modified": false },
+        {"name": "D22", "player": "B", "count": 1, "modified": false },
+        {"name": "D23", "player": "B", "count": 1, "modified": false },
+        {"name": "D31", "player": "B", "count": 1, "modified": false },
+        {"name": "D32", "player": "B", "count": 1, "modified": false },
+        {"name": "D33", "player": "B", "count": 1, "modified": false }
+      ]
+    }
+  ],
+  "bidirectionalLinks": [
+    {"fromCountry": "A11", "toCountry": "A12"},
+    {"fromCountry": "A12", "toCountry": "A13"},
+    {"fromCountry": "A21", "toCountry": "A22"},
+    {"fromCountry": "A22", "toCountry": "A23"},
+    {"fromCountry": "A31", "toCountry": "A32"},
+    {"fromCountry": "A32", "toCountry": "A33"},
+    {"fromCountry": "A11", "toCountry": "A21"},
+    {"fromCountry": "A21", "toCountry": "A31"},
+    {"fromCountry": "A12", "toCountry": "A22"},
+    {"fromCountry": "A22", "toCountry": "A32"},
+    {"fromCountry": "A13", "toCountry": "A23"},
+    {"fromCountry": "A23", "toCountry": "A33"},
+    {"fromCountry": "A21", "toCountry": "A32"},
+    {"fromCountry": "A11", "toCountry": "A22"},
+    {"fromCountry": "A22", "toCountry": "A33"},
+    {"fromCountry": "A12", "toCountry": "A23"},
+    {"fromCountry": "A12", "toCountry": "A21"},
+    {"fromCountry": "A13", "toCountry": "A22"},
+    {"fromCountry": "A22", "toCountry": "A31"},
+    {"fromCountry": "A23", "toCountry": "A32"},
+
+    {"fromCountry": "B11", "toCountry": "B12"},
+    {"fromCountry": "B12", "toCountry": "B13"},
+    {"fromCountry": "B21", "toCountry": "B22"},
+    {"fromCountry": "B22", "toCountry": "B23"},
+    {"fromCountry": "B31", "toCountry": "B32"},
+    {"fromCountry": "B32", "toCountry": "B33"},
+    {"fromCountry": "B11", "toCountry": "B21"},
+    {"fromCountry": "B21", "toCountry": "B31"},
+    {"fromCountry": "B12", "toCountry": "B22"},
+    {"fromCountry": "B22", "toCountry": "B32"},
+    {"fromCountry": "B13", "toCountry": "B23"},
+    {"fromCountry": "B23", "toCountry": "B33"},
+    {"fromCountry": "B21", "toCountry": "B32"},
+    {"fromCountry": "B11", "toCountry": "B22"},
+    {"fromCountry": "B22", "toCountry": "B33"},
+    {"fromCountry": "B12", "toCountry": "B23"},
+    {"fromCountry": "B12", "toCountry": "B21"},
+    {"fromCountry": "B13", "toCountry": "B22"},
+    {"fromCountry": "B22", "toCountry": "B31"},
+    {"fromCountry": "B23", "toCountry": "B32"},
+
+    {"fromCountry": "C11", "toCountry": "C12"},
+    {"fromCountry": "C12", "toCountry": "C13"},
+    {"fromCountry": "C21", "toCountry": "C22"},
+    {"fromCountry": "C22", "toCountry": "C23"},
+    {"fromCountry": "C31", "toCountry": "C32"},
+    {"fromCountry": "C32", "toCountry": "C33"},
+    {"fromCountry": "C11", "toCountry": "C21"},
+    {"fromCountry": "C21", "toCountry": "C31"},
+    {"fromCountry": "C12", "toCountry": "C22"},
+    {"fromCountry": "C22", "toCountry": "C32"},
+    {"fromCountry": "C13", "toCountry": "C23"},
+    {"fromCountry": "C23", "toCountry": "C33"},
+    {"fromCountry": "C21", "toCountry": "C32"},
+    {"fromCountry": "C11", "toCountry": "C22"},
+    {"fromCountry": "C22", "toCountry": "C33"},
+    {"fromCountry": "C12", "toCountry": "C23"},
+    {"fromCountry": "C12", "toCountry": "C21"},
+    {"fromCountry": "C13", "toCountry": "C22"},
+    {"fromCountry": "C22", "toCountry": "C31"},
+    {"fromCountry": "C23", "toCountry": "C32"},
+
+    {"fromCountry": "D11", "toCountry": "D12"},
+    {"fromCountry": "D12", "toCountry": "D13"},
+    {"fromCountry": "D21", "toCountry": "D22"},
+    {"fromCountry": "D22", "toCountry": "D23"},
+    {"fromCountry": "D31", "toCountry": "D32"},
+    {"fromCountry": "D32", "toCountry": "D33"},
+    {"fromCountry": "D11", "toCountry": "D21"},
+    {"fromCountry": "D21", "toCountry": "D31"},
+    {"fromCountry": "D12", "toCountry": "D22"},
+    {"fromCountry": "D22", "toCountry": "D32"},
+    {"fromCountry": "D13", "toCountry": "D23"},
+    {"fromCountry": "D23", "toCountry": "D33"},
+    {"fromCountry": "D21", "toCountry": "D32"},
+    {"fromCountry": "D11", "toCountry": "D22"},
+    {"fromCountry": "D22", "toCountry": "D33"},
+    {"fromCountry": "D12", "toCountry": "D23"},
+    {"fromCountry": "D12", "toCountry": "D21"},
+    {"fromCountry": "D13", "toCountry": "D22"},
+    {"fromCountry": "D22", "toCountry": "D31"},
+    {"fromCountry": "D23", "toCountry": "D32"},
+
+    {"fromCountry": "A33", "toCountry": "B31"},
+    {"fromCountry": "A33", "toCountry": "C13"},
+    {"fromCountry": "D11", "toCountry": "B31"},
+    {"fromCountry": "D11", "toCountry": "C13"}
+
+  ]
+}
+

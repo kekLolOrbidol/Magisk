@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/water17"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/water19"
+                app:layout_constraintEnd_toStartOf="@+id/water18"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/c23"
+                app:layout_constraintTop_toBottomOf="@+id/water15" />
+
+            <ImageButton
+                android:id="@+id/water19"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/water20"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/c33"
+                app:layout_constraintTop_toBottomOf="@+id/water17" />
+
+            <ImageButton
+                android:id="@+id/water18"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/water20"
+                app:layout_constraintEnd_toStartOf="@+id/d21"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water17"
+                app:layout_constraintTop_toBottomOf="@+id/water16" />
+
+            <ImageButton
+                android:id="@+id/water20"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/d31"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water19"
+                app:layout_constraintTop_toBottomOf="@+id/water18" />
+
+            <Button
+                android:id="@+id/d32"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_white"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/d33"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/d31"
+                app:layout_constraintTop_toBottomOf="@+id/d22" />
+
+            <Button
+                android:id="@+id/d33"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_white"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/d32"
+                app:layout_constraintTop_toBottomOf="@+id/d23" />
+
+            <Button
+                android:id="@+id/d21"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_white"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/d31"
+                app:layout_constraintEnd_toStartOf="@+id/d22"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water18"
+                app:layout_constraintTop_toBottomOf="@+id/d11" />
+
+            <Button
+                android:id="@+id/d22"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_white"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/d32"
+                app:layout_constraintEnd_toStartOf="@+id/d23"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/d21"
+                app:layout_constraintTop_toBottomOf="@+id/d12" />
+
+            <Button
+                android:id="@+id/d23"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_white"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/d33"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/d22"
+                app:layout_constraintTop_toBottomOf="@+id/d13" />
+
+            <Button
+                android:id="@+id/d31"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_white"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/d32"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water20"
+                app:layout_constraintTop_toBottomOf="@+id/d21" />
+
+            <Button
+                android:id="@+id/c33"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_black"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/water19"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/c32"
+                app:layout_constraintTop_toBottomOf="@+id/c23" />
+
+            <Button
+                android:id="@+id/c31"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_black"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/c32"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/c21" />
+
+            <Button
+                android:id="@+id/c32"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_black"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/c33"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/c31"
+                app:layout_constraintTop_toBottomOf="@+id/c22" />
+
+            <Button
+                android:id="@+id/c11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_black"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/c21"
+                app:layout_constraintEnd_toStartOf="@+id/c12"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/water7" />
+
+            <Button
+                android:id="@+id/c21"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_black"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/c31"
+                app:layout_constraintEnd_toStartOf="@+id/c22"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/c11" />
+
+            <Button
+                android:id="@+id/c22"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_black"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/c32"
+                app:layout_constraintEnd_toStartOf="@+id/c23"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/c21"
+                app:layout_constraintTop_toBottomOf="@+id/c12" />
+
+            <Button
+                android:id="@+id/c23"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_black"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/c33"
+                app:layout_constraintEnd_toStartOf="@+id/water17"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/c22"
+                app:layout_constraintTop_toBottomOf="@+id/c13" />
+
+            <Button
+                android:id="@+id/c12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_black"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/c22"
+                app:layout_constraintEnd_toStartOf="@+id/c13"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/c11"
+                app:layout_constraintTop_toBottomOf="@+id/water8" />
+
+            <Button
+                android:id="@+id/c13"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_black"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/c23"
+                app:layout_constraintEnd_toStartOf="@+id/water15"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/c12"
+                app:layout_constraintTop_toBottomOf="@+id/water9" />
+
+            <Button
+                android:id="@+id/d11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_white"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/d21"
+                app:layout_constraintEnd_toStartOf="@+id/d12"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water16"
+                app:layout_constraintTop_toBottomOf="@+id/water12" />
+
+            <Button
+                android:id="@+id/d12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_white"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/d22"
+                app:layout_constraintEnd_toStartOf="@+id/d13"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/d11"
+                app:layout_constraintTop_toBottomOf="@+id/water13" />
+
+            <Button
+                android:id="@+id/d13"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_white"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/d23"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/d12"
+                app:layout_constraintTop_toBottomOf="@+id/water14" />
+
+            <ImageButton
+                android:id="@+id/water9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                android:scaleType="fitXY"
+                android:src="@drawable/route_v"
+                app:layout_constraintBottom_toTopOf="@+id/c13"
+                app:layout_constraintEnd_toStartOf="@+id/water10"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water8"
+                app:layout_constraintTop_toBottomOf="@+id/a33" />
+
+            <ImageButton
+                android:id="@+id/water7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/c11"
+                app:layout_constraintEnd_toStartOf="@+id/water8"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/a31" />
+
+            <ImageButton
+                android:id="@+id/water8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/c12"
+                app:layout_constraintEnd_toStartOf="@+id/water9"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water7"
+                app:layout_constraintTop_toBottomOf="@+id/a32" />
+
+            <ImageButton
+                android:id="@+id/water10"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/water15"
+                app:layout_constraintEnd_toStartOf="@+id/water11"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water9"
+                app:layout_constraintTop_toBottomOf="@+id/water5" />
+
+            <ImageButton
+                android:id="@+id/water11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/water16"
+                app:layout_constraintEnd_toStartOf="@+id/water12"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water10"
+                app:layout_constraintTop_toBottomOf="@+id/water6" />
+
+            <ImageButton
+                android:id="@+id/water12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                android:scaleType="fitXY"
+                android:src="@drawable/route_v"
+                app:layout_constraintBottom_toTopOf="@+id/d11"
+                app:layout_constraintEnd_toStartOf="@+id/water13"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water11"
+                app:layout_constraintTop_toBottomOf="@+id/b31" />
+
+            <ImageButton
+                android:id="@+id/water13"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/d12"
+                app:layout_constraintEnd_toStartOf="@+id/water14"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water12"
+                app:layout_constraintTop_toBottomOf="@+id/b32" />
+
+            <ImageButton
+                android:id="@+id/water14"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/d13"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water13"
+                app:layout_constraintTop_toBottomOf="@+id/b33" />
+
+            <ImageButton
+                android:id="@+id/water15"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                android:scaleType="fitXY"
+                android:src="@drawable/route_h"
+                app:layout_constraintBottom_toTopOf="@+id/water17"
+                app:layout_constraintEnd_toStartOf="@+id/water16"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/c13"
+                app:layout_constraintTop_toBottomOf="@+id/water10" />
+
+            <ImageButton
+                android:id="@+id/water16"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                android:scaleType="fitXY"
+                android:src="@drawable/route_h"
+                app:layout_constraintBottom_toTopOf="@+id/water18"
+                app:layout_constraintEnd_toStartOf="@+id/d11"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water15"
+                app:layout_constraintTop_toBottomOf="@+id/water11" />
+
+            <ImageButton
+                android:id="@+id/water5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                android:scaleType="fitXY"
+                android:src="@drawable/route_h"
+                app:layout_constraintBottom_toTopOf="@+id/water10"
+                app:layout_constraintEnd_toStartOf="@+id/water6"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/a33"
+                app:layout_constraintTop_toBottomOf="@+id/water3" />
+
+            <ImageButton
+                android:id="@+id/water6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                android:scaleType="fitXY"
+                android:src="@drawable/route_h"
+                app:layout_constraintBottom_toTopOf="@+id/water11"
+                app:layout_constraintEnd_toStartOf="@+id/b31"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water5"
+                app:layout_constraintTop_toBottomOf="@+id/water4" />
+
+            <Button
+                android:id="@+id/a22"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_red"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/a32"
+                app:layout_constraintEnd_toStartOf="@+id/a23"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/a21"
+                app:layout_constraintTop_toBottomOf="@+id/a12"
+                app:srcCompat="@drawable/helmet" />
+
+            <Button
+                android:id="@+id/a21"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_red"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/a31"
+                app:layout_constraintEnd_toStartOf="@+id/a22"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/a11" />
+
+            <Button
+                android:id="@+id/a31"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_red"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/water7"
+                app:layout_constraintEnd_toStartOf="@+id/a32"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/a21" />
+
+            <Button
+                android:id="@+id/a32"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_red"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/water8"
+                app:layout_constraintEnd_toStartOf="@+id/a33"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/a31"
+                app:layout_constraintTop_toBottomOf="@+id/a22" />
+
+            <Button
+                android:id="@+id/a33"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_red"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/water9"
+                app:layout_constraintEnd_toStartOf="@+id/water5"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/a32"
+                app:layout_constraintTop_toBottomOf="@+id/a23" />
+
+            <ImageButton
+                android:id="@+id/water3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/water5"
+                app:layout_constraintEnd_toStartOf="@+id/water4"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/a23"
+                app:layout_constraintTop_toBottomOf="@+id/water1" />
+
+            <ImageButton
+                android:id="@+id/water4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                app:layout_constraintBottom_toTopOf="@+id/water6"
+                app:layout_constraintEnd_toStartOf="@+id/b21"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water3"
+                app:layout_constraintTop_toBottomOf="@+id/water2" />
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_blue"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B6490DE7"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/b31"
+                app:layout_constraintEnd_toStartOf="@+id/b22"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water4"
+                app:layout_constraintTop_toBottomOf="@+id/b11" />
+
+            <Button
+                android:id="@+id/b31"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_blue"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B6490DE7"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/water12"
+                app:layout_constraintEnd_toStartOf="@+id/b32"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water6"
+                app:layout_constraintTop_toBottomOf="@+id/b21" />
+
+            <Button
+                android:id="@+id/b32"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_blue"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B6490DE7"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/water13"
+                app:layout_constraintEnd_toStartOf="@+id/b33"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/b31"
+                app:layout_constraintTop_toBottomOf="@+id/b22" />
+
+            <Button
+                android:id="@+id/b33"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_blue"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B6490DE7"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/water14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/b32"
+                app:layout_constraintTop_toBottomOf="@+id/b23" />
+
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_blue"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B6490DE7"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/b32"
+                app:layout_constraintEnd_toStartOf="@+id/b23"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/b21"
+                app:layout_constraintTop_toBottomOf="@+id/b12" />
+
+            <Button
+                android:id="@+id/b23"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_blue"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B6490DE7"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/b33"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/b22"
+                app:layout_constraintTop_toBottomOf="@+id/b13" />
+
+            <Button
+                android:id="@+id/a23"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_red"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/a33"
+                app:layout_constraintEnd_toStartOf="@+id/water3"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/a22"
+                app:layout_constraintTop_toBottomOf="@+id/a13" />
+
+            <Button
+                android:id="@+id/a12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_red"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/a22"
+                app:layout_constraintEnd_toStartOf="@+id/a13"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/a11"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/a13"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_red"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/a23"
+                app:layout_constraintEnd_toStartOf="@+id/water1"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/a12"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/water1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+
+                app:layout_constraintBottom_toTopOf="@+id/water3"
+                app:layout_constraintEnd_toStartOf="@+id/water2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/a13"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/water2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/water"
+                android:text="1"
+
+                app:layout_constraintBottom_toTopOf="@+id/water4"
+                app:layout_constraintEnd_toStartOf="@+id/b11"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_blue"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B6490DE7"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/b21"
+                app:layout_constraintEnd_toStartOf="@+id/b12"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/water2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_blue"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B6490DE7"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/b22"
+                app:layout_constraintEnd_toStartOf="@+id/b13"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/b11"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_blue"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#B6490DE7"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/b23"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/b12"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/a11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/country_red"
+                android:scaleType="fitXY"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintBottom_toTopOf="@+id/a21"
+                app:layout_constraintEnd_toStartOf="@+id/a12"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:background="#FFC107"
+        android:layout_weight="0.3">
+
+        <LinearLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

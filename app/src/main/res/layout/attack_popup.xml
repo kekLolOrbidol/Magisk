@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pergament2"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Attack!"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:typeface="normal"
+        app:fontFamily="@font/bangers" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/attacker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Attacker:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="8sp"
+                        android:textStyle="italic"
+                        app:fontFamily="@font/ledger" />
+
+                    <TextView
+                        android:id="@+id/defender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Defender:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="8sp"
+                        android:textStyle="italic"
+                        app:fontFamily="@font/ledger" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/country"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:text="Country:"
+                        android:textColor="#FFFFFF"
+                        app:fontFamily="@font/ledger" />
+
+                    <TextView
+                        android:id="@+id/attackingCountry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Y33"
+                        android:textColor="#FFFFFF"
+                        app:fontFamily="@font/ledger" />
+
+                    <TextView
+                        android:id="@+id/defendingCountry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="Z99"
+                        android:textColor="#FFFFFF"
+                        app:fontFamily="@font/ledger" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/troops"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:text="Troops:"
+                        android:textColor="#FFFFFF"
+                        app:fontFamily="@font/ledger" />
+
+                    <TextView
+                        android:id="@+id/attackingTroops"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="5"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/ledger" />
+
+                    <TextView
+                        android:id="@+id/defendingTroops"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/ledger" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="10dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/round"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="70dp"
+                        android:textColor="#FFFFFF"
+                        app:fontFamily="@font/ledger" />
+
+                    <ImageView
+                        android:id="@+id/attackerDice1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/empty" />
+
+                    <ImageView
+                        android:id="@+id/defenderDice1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/empty" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/attackerDice2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/empty" />
+
+                    <ImageView
+                        android:id="@+id/defenderDice2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/empty" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/attackerDice3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/empty" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/attackButtonPop"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="40dp"
+                android:background="#0D6800"
+                android:fitsSystemWindows="false"
+                android:text="Attack"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/fastAttackButtonPop"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="40dp"
+                android:background="#0D6800"
+                android:text="FAST ATTACK"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/withdrawalButtonPop"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="40dp"
+                android:background="#0D6800"
+                android:text="WITHDRAWAL"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:typeface="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
