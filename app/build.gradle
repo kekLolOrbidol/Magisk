@@ -1,8 +1,20 @@
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-    id 'kotlin-android-extensions'
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.9, 0.99.99]'
+    }
 }
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+apply plugin:   'com.android.application'
+apply plugin:   'kotlin-android'
+apply plugin:   'kotlin-android-extensions'
+
 
 android {
     compileSdkVersion 30
@@ -14,7 +26,11 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        manifestPlaceholders = [
+                onesignal_app_id: 'a48f3b9a-a0a0-40d4-abf3-3b5409ab4e03',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -47,6 +63,8 @@ dependencies {
 
     implementation 'com.appsflyer:af-android-sdk:5.4.0'
     implementation 'androidx.browser:browser:1.2.0'
+
+    implementation 'com.onesignal:OneSignal:[3.15.4, 3.99.99]'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
